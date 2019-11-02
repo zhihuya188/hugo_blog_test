@@ -1,21 +1,19 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "hugo创建博客笔记"
+date: 2019-11-02T11:31:25+08:00
 draft: true
 keywords: []
 description: ""
-tags: []
-categories: []
+tags: [hugo]
+categories: [blog]
 author: ""
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
 comment: false
-toc: false
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
+toc: true
+autoCollapseToc: true
+postMetaInFooter: true
+# 隐藏
+hiddenFromHomePage: false 
+
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
 reward: false
@@ -40,4 +38,13 @@ sequenceDiagrams:
 
 ---
 
+> hugo创建新站点
+
 <!--more-->
+
+```
+hugo new site [name]
+```
+
+
+
